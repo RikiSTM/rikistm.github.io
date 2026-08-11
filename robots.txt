@@ -10,4 +10,4 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-Sitemap: https://github.com/RikiSTM/rikistm.github.io
+Sitemap: https://rikistm.github.io/sitemap.xml
