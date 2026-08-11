@@ -1,0 +1,12 @@
+# RikiSTM — AI/ML Engineer
+
+> 10 years QA engineer transitioning to AI/ML. Focus: AI reliability,
+> MLOps, NLP, bias mitigation, explainable AI, Model Evaluation.
+
+## Projects
+- [Telco Churn MLOps](https://rikistm.github.io/telco-churn-mlops-pipeline/): End-to-end MLOps pipeline with MLflow, FastAPI, XAI, and Bias/Fairness testing.
+- [ML Algorithms from Scratch](https://rikistm.github.io/numpy-ml-from-scratch/): NumPy-only implementations of core ML algorithms (Linear/Logistic Regression, Decision Trees).
+
+## Profiles
+- GitHub: https://github.com/RikiSTM
+- LinkedIn: https://www.linkedin.com/in/riki-sutiaman-ai-engineer
