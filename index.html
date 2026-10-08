@@ -4,6 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
+  <!-- Pico CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <style>
+    :root {
+      --pico-font-family: system-ui, -apple-system, "Segoe UI", "Roboto", "Helvetica Neue", sans-serif;
+    }
+    body > main {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+    a[href^="https://rikistm.github.io/"] {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  </style>
+  
   <!-- Primary Meta Tags -->
   <title>RikiSTM — AI/ML Engineer | MLOps & QA Expert</title>
   <meta name="description" content="RikiSTM is an AI/ML Engineer with 10 years of QA experience, specializing in MLOps, AI reliability, and algorithm implementations from scratch.">
@@ -11,7 +27,7 @@
   <meta name="google-site-verification" content="BvjTaYEaVcYgqq_w0Jra1LWAsymHN8PZRb9uz2Avv3I" />
   <link rel="canonical" href="https://rikistm.github.io/">
 
-  <!-- Open Graph / Facebook / LinkedIn -->
+  <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://rikistm.github.io/">
   <meta property="og:title" content="RikiSTM — AI/ML Engineer | MLOps & QA Expert">
@@ -27,7 +43,7 @@
   <meta name="twitter:description" content="AI/ML Engineer with 10 years of QA experience, specializing in MLOps, AI reliability, and algorithm implementations from scratch.">
   <meta name="twitter:image" content="https://rikistm.github.io/images/og-banner.jpg">
 
-  <!-- JSON-LD Structured Data -->
+  <!-- JSON-LD -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -49,22 +65,34 @@
   </script>
 </head>
 <body>
-  <h1>RikiSTM — AI/ML Engineer</h1>
-
-  <!-- Entity (GEO) -->
-  <p>RikiSTM is an AI/ML Engineer with 10 years of QA experience, specializing in building reliable machine learning pipelines, MLOps, Model Evaluation and algorithm implementations from scratch.</p>
-
-  <h2>Projects</h2>
-  <ul>
-    <li><a href="https://rikistm.github.io/telco-churn-mlops-pipeline/">Telco Churn MLOps</a> — End-to-end MLOps pipeline with MLflow, FastAPI, XAI, and Bias/Fairness testing.</li>
-    <li><a href="https://rikistm.github.io/numpy-ml-from-scratch/">ML Algorithms from Scratch</a> — Core ML algorithms (Linear/Logistic Regression, Decision Trees) implemented and tested using only NumPy.</li>
-    <li><a href="https://github.com/RikiSTM/banking77-intent-router">Banking77 Intent Router</a> — An end-to-end NLP baseline exploring class imbalance, lexical overlap (Jaccard), and business-driven intent taxonomy refinement</li>
-  </ul>
-
-  <h2>Connect</h2>
-  <ul>
-    <li><a href="https://github.com/RikiSTM">GitHub</a></li>
-    <li><a href="https://www.linkedin.com/in/riki-sutiaman-ai-engineer">LinkedIn</a></li>
-  </ul>
+  <main class="container">
+    <h1>RikiSTM — AI/ML Engineer</h1>
+    
+    <!-- Entity GEO -->
+    <p>RikiSTM is an AI/ML Engineer with 10 years of QA experience, specializing in building reliable machine learning pipelines, MLOps, Model Evaluation and algorithm implementations from scratch.</p>
+    
+    <h2>Projects</h2>
+    
+    <article>
+      <h3><a href="https://rikistm.github.io/telco-churn-mlops-pipeline/">Telco Churn MLOps</a></h3>
+      <p>End-to-end MLOps pipeline with MLflow, FastAPI, XAI, and Bias/Fairness testing.</p>
+    </article>
+    
+    <article>
+      <h3><a href="https://rikistm.github.io/numpy-ml-from-scratch/">ML Algorithms from Scratch</a></h3>
+      <p>Core ML algorithms (Linear/Logistic Regression, Decision Trees) implemented and tested using only NumPy.</p>
+    </article>
+    
+    <article>
+      <h3><a href="https://rikistm.github.io/banking77-intent-router/">Banking77 Intent Router</a></h3>
+      <p>End-to-end NLP baseline exploring class imbalance, lexical overlap (Jaccard), and business-driven intent taxonomy refinement.</p>
+    </article>
+    
+    <h2>Connect</h2>
+    <ul>
+      <li><a href="https://github.com/RikiSTM">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/riki-sutiaman-ai-engineer">LinkedIn</a></li>
+    </ul>
+  </main>
 </body>
 </html>
