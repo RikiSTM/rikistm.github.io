@@ -5,7 +5,12 @@
 
 ## Projects
 - [Telco Churn MLOps](https://rikistm.github.io/telco-churn-mlops-pipeline/): End-to-end MLOps pipeline with MLflow, FastAPI, XAI, and Bias/Fairness testing.
+
 - [ML Algorithms from Scratch](https://rikistm.github.io/numpy-ml-from-scratch/): NumPy-only implementations of core ML algorithms (Linear/Logistic Regression, Decision Trees).
+
+- [Banking77 Intent Router](https://github.com/RikiSTM/banking77-intent-router/): End-to-end NLP baseline exploring class imbalance, lexical overlap (Jaccard), and business-driven intent taxonomy refinement.
+
+- [Neural Network from Scratch](https://github.com/RikiSTM/neural-network-from-scratch/): Core Deep Learning engine (MLP, Backpropagation, Computational Graphs) built from scratch using pure NumPy to demystify tensor math and the "black box".
 
 ## Profiles
 - GitHub: https://github.com/RikiSTM
